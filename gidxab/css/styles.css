@@ -1,0 +1,677 @@
+@font-face {
+    font-family: 'Open Sans';
+    font-style: italic;
+    font-weight: 400;
+    font-stretch: 100%;
+    font-display: swap; /*отображение шрифта какогонибуть пока не загрузился нужный */
+    src: local('Open Sans Regular'), local('Open Sans-Regular'),
+    url('../fonts/OpenSans-ExtraBoldItalic.ttf') format('ttf');
+  }
+  @font-face {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-stretch: 100%;
+    font-display: swap; /*отображение шрифта какогонибуть пока не загрузился нужный */
+    src: local('Open Sans Regular'), local('Open Sans-Regular'),
+    url('../fonts/OpenSans-Bold.ttf') format('ttf');
+  }  
+body { 
+    margin: 0 auto;
+    font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+}
+.background {
+    background-color: #e0e0e0;
+}
+header {
+    /* position: sticky; ФИКСАЦИЯ ШАПКИ (ВМЕСТЕ С top: 0) 
+    top: 0; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    background-color: #000000;
+    max-width: 1249px;
+    height: 89px;
+}
+.nav ul {
+    display: flex;
+    margin-right: 70px;
+    list-style: none;
+}
+.nav a {
+  color: #E0E0E0;
+  padding-top: 43px;
+  padding-bottom: 26px;
+  padding-right: 30px;
+  padding-left: 30px;
+  font-size: 14px;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+.nav a:hover {
+    background-color: rgba(255, 63, 64, 1);
+} 
+
+/* секция 1 ===============================================*/
+
+.section-1 {
+    flex: 1 1 100px; 
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    max-width: 1249px;
+    padding-bottom: 112px;
+}
+.o-kompanii {
+    padding-left: 8px;
+}
+.o-kompanii h1 {
+    width: 617px;
+    padding-top: 16px;
+    margin-bottom: -33px;
+    font-size: 60px;
+    font-weight: 900;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    line-height: 74px;
+}
+.o-kompanii p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.7;
+    flex-wrap: wrap;
+    width: 545px;
+    margin: 0;
+    margin-top: 50px;
+    margin-bottom: 57px;
+}
+.kontakt-Us {
+    padding: 1.5vh 3.5vw;
+    font-size: 18px;
+    color: rgba(255, 255, 255, 1);
+    background-color: #FF2D2D;
+}
+.img {
+    max-width: 550px;
+    min-width: 100px;
+    height: auto;
+    margin-top: 71px;
+    box-shadow: 0 0 42px 18px rgb(124 124 124); /* тень */
+}
+
+/* секция 2 ===============================================*/
+
+.section-2 {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    max-width: 1249px;
+    padding-top: 65px;
+}
+.pomosh {
+    padding-left: 8px;
+    max-width: 502px;
+}
+.pomosh h2 {
+    text-transform: uppercase;
+    font-size: 42px;
+    font-style: normal;
+}
+.pomosh p {
+    font-size: 16px;
+    line-height: 1.7;
+    padding-bottom: 38px;
+    margin-top: -5px;
+} 
+.Learn-More {
+    font-size: 15px;
+    color: #FF2D2D;
+    border: 2px solid #FF0000;;
+    padding: 0.8vw 3.65vw;
+}
+.vozmozhnosti {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    max-width: 609px;
+    min-width: 300px;
+    padding-top: 34px;
+}
+.punkt-1 {
+    padding-left: 7px;
+    width: 288px;
+}  
+.punkt-1 img {
+    width: 1vw;
+    height: 1vw;
+    padding-top: 3PX;
+}
+.punkt-1 h3 {
+    font-size: 22px;
+    letter-spacing: 1.5px;
+    line-height: 1.7;
+    margin-top: 19px;
+    margin-bottom: 6px;
+    opacity: 0.7;
+}
+.punkt-1 p {
+    color: rgba(0, 0, 0, 1);
+    font-size: 16px;
+    line-height: 1.75;
+    margin: 0;
+    margin-bottom: 43px;
+    opacity: 0.7;
+}
+.punkt-2 {
+    width: 288px;
+}  
+.punkt-2 img {
+    width: 1vw;
+    height: 1vw;
+    padding-top: 3PX;
+}
+.punkt-2 h3 {
+    font-weight: 600;
+    font-size: 22px;
+    letter-spacing: 1.5px;
+    margin-left: 8px;
+    margin-bottom: -7px;
+    opacity: 0.7;
+}
+.punkt-2 p {
+    color: rgba(0, 0, 0, 1);
+    opacity: 0.7;
+    font-size: 16px;
+    line-height: 1.75;
+    margin-left: 8px;
+    margin-bottom: 46px;
+}
+.punkt-3 {
+    padding-left: 8px;
+    width: 288px;
+}  
+.punkt-3 img {
+    width: 1vw;
+    height: 1vw;
+}
+.punkt-3 h3 {
+    font-weight: 600;
+    font-size: 22px;
+    opacity: 0.7;
+    letter-spacing: 1.5px;
+    line-height: 1.7;
+    margin-bottom: -9px;
+}
+.punkt-3 p {
+    color: rgba(0, 0, 0, 1);
+    font-size: 16px;
+    opacity: 0.7;
+    letter-spacing: 1.1px;
+    line-height: 1.7;
+}
+.punkt-4 {
+    padding-left: 7px;
+    width: 288px;
+
+}  
+.punkt-4 img {
+    width: 1vw;
+    height: 1vw;
+}
+.punkt-4 h3 {
+    font-weight: 600;
+    font-size: 22px;
+    opacity: 0.7;
+    letter-spacing: 1.5px;
+    margin-left: 8px;
+    margin-bottom: -2px;
+    margin-top: 18px;
+    line-height: 1.75;
+}
+.punkt-4 p {
+    color: rgba(0, 0, 0, 1);
+    font-size: 16px;
+    opacity: 0.7;
+    line-height: 1.75;
+    letter-spacing: 1.1px;
+    margin-left: 8px;
+    margin-top: 8px;
+}
+/* секция 3 ===============================================*/
+
+.section-3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 1249px;
+    margin: 0 auto;
+}
+.products h2 {
+    color: rgb(94, 93, 93);
+    font-size: 42px;
+    letter-spacing: -1px;
+    text-transform: uppercase;
+    margin-top: 153px;
+    margin-left: 85px;
+}
+.products p {
+    text-align: center;
+    color: rgb(107, 103, 103);
+    font-size: 16px;
+    line-height: 1.75;
+    opacity: 0.7;
+    max-width: 500px;
+    margin-top: -19px;
+    margin-left: 49px;
+}
+.hr-1 {
+    background-color: rgba(255, 45, 45, 1); 
+    width: 134px;
+    height: 5px;
+    border: none;
+    margin-top: 30px;
+}
+.ssilki ul {
+    list-style: none;
+    display: flex;
+    padding-left: 2px;
+    margin-top: 67px;
+}
+.ssilki a {
+    font-size: 22px;
+    padding-left: 53px;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+.ssilki a:hover {
+    color: rgba(255, 45, 45, 1);
+} 
+
+/* секция 3.1 (СНИМКИ) =========================*/
+
+.snimki {
+    max-width: 1249px;
+    margin: 0 auto;
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.snimki img {
+    min-width: 250px;
+    width: 300px;
+    padding-top: 16px;
+    height: 291px;
+    object-fit: cover;
+}
+
+/* секция 4 (команда) ========================================================================= */
+
+.komandos {
+    max-width: 1269px;
+    margin: 0 auto;
+    margin-top: 130px;
+    margin-left: 311px;
+    font-size: 42px;
+}
+.komandos h2 {
+    font-size: 42px;
+    color: rgb(128, 115, 115);
+    text-transform: uppercase;
+}
+.komandos P {
+    color: rgb(128, 115, 115);
+    font-size: 16px;
+    line-height: 1.75;
+    margin-top: -12px;
+} 
+.hr-2 {
+    width: 134px;
+    height: 5px;
+    margin-left: 0;
+    margin-top: 29px;
+    border: none;
+    background-color: rgba(255, 45, 45, 1); 
+} 
+ 
+/* секция  5 (фото команды) ==================================================================== */
+
+.foto-comandos {
+    max-width: 1269px;
+    margin: 0 auto;
+    display: flex;
+    padding-bottom: 82px;
+}
+.foto-comandos img {
+    width: 321px;
+    height: 458px;
+    margin-top: 60px;
+    margin-left: 19px;
+}
+.o-rukovodltele {
+    margin-top: 51px;
+    margin-left: -15px;
+}
+.o-rukovodltele span {
+    font-size: 30px;
+    font-weight: 400;
+    margin-top: 53px;
+    margin-left: 80px;
+}
+.o-rukovodltele p {
+    font-size: 16px;
+    margin-left: 80px;
+    margin-top: 15px;
+    line-height: 1.75;
+}
+.socseti ul {
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 41px;
+    margin-top: 54px;
+    margin-right: 66px;
+    list-style: none;
+    font-size: 18px;
+    font-style: italic;
+    font-weight: 200;
+}
+.socseti a {
+    text-decoration: none;
+    margin-right: 35px;
+}
+.socseti a:hover {
+    text-decoration: underline;
+}
+.foto-clenov-komand {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: -18px;
+    margin-left: 46px;
+}
+.foto-clenov-komand img {
+    width: 198px;
+    height: 217px;
+    margin-right: -2px;
+    object-fit: cover;
+}
+
+/* секция 6 (форма 1 (подпмска)) ========================================================================= */
+
+.section-6 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+    text-align: center;
+    box-sizing: border-box;
+    padding-bottom: 137px;
+    margin-top: 30px;
+    background-color: #2c2c2c;
+}
+.section-6 h2 {
+    color: #fff;
+    font-size: 42px;
+    font-weight: 600;
+    margin-top: 123px;
+    margin-left: 17px;
+    /* word-break: break-word;
+	hyphens: auto; */
+	/* Свойство word-break заставляет слова переноситься по буквам, если они не помещаются в родительский элемент.
+	Свойство hyphens добавляет дефис в месте переноса (может работать не во всех браузерах) */
+}
+.section-6 p {
+    color: #fff;
+    font-size: 16px;
+    opacity: 0.8;
+    margin-top: -3px;
+    margin-left: 25px;
+} 
+.form-1 input {
+    width: 521px;
+    height: 79px;
+    margin-top: 34px;
+    margin-left: 8px;
+    border-radius: 5px;
+}
+.form-1 button {
+    background-color: #FF2D2D;
+    color: rgba(255, 255, 255, 1);
+    width: 214px;
+    height: 79px;
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+    border-radius: 5px;
+    padding-bottom: 45px;
+    padding-top: 32px;
+} 
+
+/* секция 7 (форма 2 (связь)) ===================================*/
+
+.section-7 {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: flex-end;
+    margin-top: 56px;
+    margin-left: 312px;
+}
+.svyz {
+    width: 39vw;
+}
+.svyz h2 {
+    font-size: 42px;
+    font-weight: 600;
+}
+.svyz p {
+    font-size: 16px;
+    font-weight: 200;
+    margin-top: -2px;
+    line-height: 1.75;
+}
+.hr-3 {
+    margin-left: 0;
+    margin-top: 50px;
+    border: none;
+    width: 134px;
+    height: 5px;
+    background-color: #FF2D2D;;
+}
+.form-2 {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.form-2 input {
+    font-size: 16px;
+    border: none;
+    background-color: #f3f3f3;
+}
+.input-1 {
+    max-width: 342px;
+    margin-top: 53px;
+    padding-left: 51px;
+    padding-right: 91px;
+    padding-top: 28px;
+    padding-bottom: 24px;
+    border-radius: 5px;
+}
+.input-2 {
+    max-width: 342px;
+    margin-top: 53px;
+    padding-right: 78px;
+    padding-left: 54px;
+    padding-top: 28px;
+    padding-bottom: 24px;
+    border-radius: 5px;
+}
+.input-3 {
+    display: flex;
+    align-items: flex-start;
+    width: 100%;
+    height: 252px;
+    margin-top: 50px;
+    padding-bottom: 155px;
+    padding-left: 51px;
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+.form-2 button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 72px;
+    background-color: #FF3B3B;
+    color: #FFFFFF;
+    font-size: 18px;
+    font-weight: 700;
+    margin-top: 42px;
+    border-radius: 5px;
+    border: none;
+    text-transform: uppercase;
+} 
+.contact-info {
+    background-color: #2D2D2D;
+    color: rgba(255, 255, 255, 1);
+    width: 37.5vw;
+    height: 50vh;
+}
+.contact-info h2 {
+    font-size: 18px;
+    margin-top: 141px;
+    margin-left: 75px;
+}
+.contact-info p {
+    font-size: 16px;
+    font-style: italic;
+    font-weight: 200;
+    margin-left: 71px;
+}
+.p-1 {
+    line-height: 1.75;
+    margin-top: 30px;
+}
+.p-2 {
+    line-height: 3;
+    margin-top: -10px;
+}
+/* footer ============================================== */
+
+.footer {
+    height: 113px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: rgba(184, 184, 184, 1);
+    background-color: #313030;
+    font-size: 16px;
+    margin-top: 110px;
+}
+.footer p {
+    padding-right: 130px;
+    padding-left: 41px;
+}
+.sozseti img {
+    max-width: 33px;
+    height: 33px;
+    border-radius: 20px;
+    margin-right: 22px;
+    background-color: rgb(255, 255, 255);;
+}
+
+/* брейкпоинты =============================================*/
+
+
+/* брейкпоинт секции 1, пишется в конце*/
+
+ @media screen and (max-width: 1050px) {
+    .section-1 {
+        flex-wrap: wrap;
+    }  
+    .o-kompanii {
+        margin: 0 auto;
+    }
+    .img {
+        max-width: 617px;
+        margin: 10vh auto;
+    }
+}
+ /* брейкпоинт секции 2 */
+
+ @media screen and (max-width: 1100px) {
+    .punkt-1 {
+        width: 60vw;
+    }
+    .punkt-2 {
+        width: 60vw;
+    }
+    .punkt-3 {
+        width: 60vw;
+    }
+    .punkt-4 {
+        width: 60vw;
+    }
+}
+ /* брейкпоинт секции 3 */
+
+ @media screen and (max-width: 300px){
+    .ssilki ul {
+        display: block;
+    }
+}
+ /* брейкпоинт секции 3.1 снимки */
+
+@media screen and (max-width: 1225px) {
+    .snimki img {
+        flex: 1 1 24vw;
+        padding-right: 0.5vw;
+        padding-top: 0.5vw;
+    }
+}
+ /* брейкпоинт секции  5 фото команды */
+
+@media screen and (max-width: 1355px){
+    .foto-clenov-komand img {
+        padding-right: 0.5vw;
+        padding-top: 0.5vw;
+        object-fit: cover;
+    }
+    .foto-clenov-komand {
+        justify-content: space-evenly;
+    }
+}  
+
+ /* брейкпоинт секции  6 */
+
+@media screen and (max-width: 1000px) {
+    .section-6 {
+        display: block;
+    }
+}
+
+ /* брейкпоинт секции  7  */
+
+ @media screen and (max-width: 1400px) {
+    .section-7 {
+        margin: 0;
+        justify-content: center;
+    }
+    .form-2 {
+        margin: 0;
+    }
+    .contact-info {
+        margin: 1vw;
+        width: 100vw;
+    }
+    .footer {
+        margin: 0;
+    }
+}
